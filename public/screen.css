@@ -15,9 +15,19 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #673ab7;
+  background-color: #512da8;
   color: #ccc;
   height: 5rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #512da8;
+}
+
+h1 {
+  font-size: 2rem;
 }
 
 /***** Classes *****/
@@ -27,43 +37,42 @@ footer {
   padding: 0.5rem;
 }
 
-.menu-text {
-  color: #fff;
-  padding: 0.5rem;
-}
-.menu-text:hover {
-  background-color: #ffc107;
-  color: #212121;
-}
-
 .footer-link-text {
   color: #ccc;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  background-color: #673ab7;
+.icon {
+  padding-right: 0.5rem;
 }
 
 .header-title {
   display: flex;
   align-items: center;
-  background-color: #673ab7;
+  background-color: #512da8;
   color: #fff;
   flex-basis: 50%;
   padding: 0rem 0rem 0rem 0.5rem;
   font-weight: normal;
 }
 
-.menu {
+.menu🦄 {
   display: flex;
   align-items: center;
   flex-basis: 50%;
   justify-content: flex-end;
-  background-color: #673ab7;
+  background-color: #512da8;
   color: #fff;
-  padding: 0rem 1rem 0rem 0;
+  padding: 0rem 0.5rem 0rem 0;
+}
+
+.menu-text {
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.menu-text:hover {
+  background-color: #ffc107;
+  color: #212121;
 }
 
 .nasa-image {
@@ -108,18 +117,18 @@ footer {
   text-align: center;
 }
 
-.launch-info {
+.launch-info-area {
   padding-bottom: 0.75rem;
   border-bottom: darkgray 1px solid;
 }
 
-.countdown {
+.countdown-area {
   padding-top: 0.75rem;
   border-bottom: darkgray 1px solid;
   padding-bottom: 0.75rem;
 }
 
-.location {
+.location-area {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
